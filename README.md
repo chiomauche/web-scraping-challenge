@@ -48,9 +48,13 @@ I used automated browsing to visit https://static.bc-edx.com/data/web/mars_facts
     * Plot the results as a bar chart.
 
     ![Alt text](<Screenshot 2023-10-25 034845.png>)
-    
+
 * About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
      * Consider how many days elapse on Earth in the time that Mars circles the Sun once.
      * Visually estimate the result by plotting the daily minimum temperature.
 
+     ![Alt text](<Screenshot 2023-10-25 035034.png>)
+
 * I exported the DataFrame to a CSV file.
+
+![Alt text](<Screenshot 2023-10-25 035148.png>)
