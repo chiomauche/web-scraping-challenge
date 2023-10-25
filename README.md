@@ -1,29 +1,24 @@
-     web-scraping-challenge
+# web scraping and data analysis project
 
-I used the knowledge I've learned to identify HTML elements on a page, identify their id and class attributes, scrape various types of information, including HTML tables and recurring elements, like multiple news articles on a webpage. In this challenge, I extracted information via both automated browsing with Splinter and HTML parsing with Beautiful Soup. 
+I used the knowledge I've learned to identify HTML elements on a page, identify their id and class attributes, scrape various types of information, including HTML tables and recurring elements, like multiple news articles on a webpage. I extracted information via both automated browsing with Splinter and HTML parsing with Beautiful Soup. 
 
-This challenge consists of two technical products, the deliverables includes:
+* This analysis consists of two technical products, the deliverables includes:
+  * Deliverable 1: Scrape titles and preview text from Mars news articles.
+  * Deliverable 2: Scrape and analyze Mars weather data, which exists in a table.
 
-  Deliverable 1: Scrape titles and preview text from Mars news articles.
+# Part 1: Scrape Titles and Preview Text from Mars News
+* In this part, I used automated browsing to visit https://static.bc-edx.com/data/web/mars_news/index.html 
+* Inspected the page to identify which elements to scrape.
+* I created a Beautiful Soup object and use it to extract text elements from the website.
+* I extracted the titles and preview text of the news articles that I scraped. 
+* Stored the scraping results, each title-and-preview pair in a Python dictionary and, gave each dictionary two keys: title and preview. 
+* Stored all the dictionaries in a Python list.
 
-  Deliverable 2: Scrape and analyze Mars weather data, which exists in a table.
+![Alt text](<Screenshot 2023-10-25 032833-1.png>)
 
-  Part 1: Scrape Titles and Preview Text from Mars News
-In this part, I used automated browsing to visit the Mars news siteLinks to an external site.. Inspected the page to identify which elements to scrape.
+* Printed the list in my Jupyter Notebook.
 
-I created a Beautiful Soup object and use it to extract text elements from the website.
-
-I extracted the titles and preview text of the news articles that I scraped. 
-
-Stored the scraping results, each title-and-preview pair in a Python dictionary and, gave each dictionary two keys: title and preview. An example is the following:
-{'title': "NASA's MAVEN Observes Martian Light Show Caused by Major Solar Storm", 
- 'preview': "For the first time in its eight years orbiting Mars, NASA’s MAVEN mission witnessed two different types of ultraviolet aurorae simultaneously, the result of solar storms that began on Aug. 27."}
-
-Stored all the dictionaries in a Python list.
-
-Printed the list in my Jupyter Notebook.
-
-Part 2: Scrape and Analyze Mars Weather Data
+# Part 2: Scrape and Analyze Mars Weather Data
 I used automated browsing to visit the Mars Temperature Data SiteLinks to an external site.. Inspected the page to identify which elements to scrape. Note that the URL is https://static.bc-edx.com/data/web/mars_facts/temperature.html.
 
 I created a Beautiful Soup object and use it to scrape the data in the HTML table.
