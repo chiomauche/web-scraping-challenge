@@ -30,7 +30,7 @@ I used automated browsing to visit https://static.bc-edx.com/data/web/mars_facts
   * month: the Martian month
   * min_temp: the minimum temperature, in Celsius, of a single Martian day (sol)
   * pressure: The atmospheric pressure at Curiosity's location
-  
+
   ![Alt text](<Screenshot 2023-10-25 034407.png>)
 
 * I examined the data types that are currently associated with each column. I converted the data to the appropriate datetime, int, or float data types.
@@ -40,9 +40,15 @@ I used automated browsing to visit https://static.bc-edx.com/data/web/mars_facts
   * What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question:
       * Find the average minimum daily temperature for all of the months.
       * Plot the results as a bar chart.
+
+    ![Alt text](<Screenshot 2023-10-25 034713.png>)
+
   * Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
      * Find the average daily atmospheric pressure of all the months.
     * Plot the results as a bar chart.
+
+    ![Alt text](<Screenshot 2023-10-25 034845.png>)
+    
 * About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
      * Consider how many days elapse on Earth in the time that Mars circles the Sun once.
      * Visually estimate the result by plotting the daily minimum temperature.
